@@ -1,0 +1,18 @@
+header {
+    height: 70vh;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightblue;
+}
+header img {
+    height: 100px;
+}
+header ul {
+    border: 1px solid blue;
+    justify-content: flex-end;
+    row-gap: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
