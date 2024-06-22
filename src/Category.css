@@ -1,0 +1,16 @@
+section {
+        border: 2px solid green;
+        /* display: grid; */
+        margin-left: 10px;
+        margin-right: 10px;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        /* width: 70%; */
+}
+.cardList {
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+    overflow-y: hidden;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
