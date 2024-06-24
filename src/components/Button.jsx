@@ -1,7 +1,7 @@
 function Button(props){
    return(
-       <button>{props.name}</button>
+       <button id="hide">{props.name}</button>
    );
 }
 
-export default Button
+export default Button;

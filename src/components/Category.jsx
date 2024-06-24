@@ -1,15 +1,11 @@
 import "../Category.css"
-import Card from "./Card";
 
-function Category(){
+function Category({children}){
    return(
        <section className="front-end">
-    <ul className="cardList">
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    </ul>
+       <ul className="cardList">
+       {children}
+       </ul>
        </section>
    );
 }

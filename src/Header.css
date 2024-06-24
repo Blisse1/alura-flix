@@ -3,7 +3,7 @@ header {
     border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 header img {
     height: 100px;

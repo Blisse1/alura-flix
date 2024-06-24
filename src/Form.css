@@ -1,8 +1,12 @@
 form {
     border: 1px solid black;
+    padding: 30px;
     width: 30%;
     margin: 0 auto;
+    position: absolute;
+    top: 20px;
 }
+
 label {
    display: block; 
 }

@@ -1,12 +1,13 @@
 import "../Card.css"
+import Form from "../components/Form";
 
-function Card(){
+function Card({children}){
+
    return(
        <li>
        <div className="card">
        <img src="" alt="" />
-       <span>Borrar</span>
-       <span>Editar</span>
+       {children}
        </div>
        </li>
    );
