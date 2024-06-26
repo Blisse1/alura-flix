@@ -1,6 +1,8 @@
 function Button(props){
    return(
-       <button id="hide">{props.name}</button>
+       <a href={props.href}>
+        <button id="hide">{props.name}</button>
+       </a>
    );
 }
 

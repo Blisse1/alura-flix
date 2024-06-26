@@ -7,7 +7,6 @@ import Card from "./components/Card";
 import Form from "./components/Form";
 import { useState } from "react";
 
-
 function App() {
 
     const [toggle, setToggle] = useState(false);
